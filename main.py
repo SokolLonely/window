@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 #import console
-#import openai
+import openai
 import subprocess
 def askIlon(question):
  openai.api_key = ""#write your OpenAI key hear
