@@ -21,6 +21,6 @@ while True:                             # The Event Loop
         if converted != "error":
          print(askConsole(converted))
         else:
-         print("I'm sorry. ChatGPT can't understand you")
+         print("I'm sorry. ChatGPT can't understand you, sorry")
     if event in (None, 'Exit', 'Cancel'):
         break
